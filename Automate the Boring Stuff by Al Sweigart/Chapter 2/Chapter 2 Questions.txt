@@ -51,23 +51,22 @@ Q: 6. What is the difference between the equal to operator and the assignment op
 
 
 Q: 7. Explain what a condition is and where you would use one.
-
+# A condition is an expression that evaluates down to True or False.
+# Flow control statements depend on conditions to decide what to do.
 
 
 Q: 8. Identify the three blocks in this code:
 		spam = 0
 		if spam = = 10:
-			print(' eggs')
+			print(' eggs')			# block 1
 			if spam > 5:
-				print(' bacon')
+				print(' bacon')		# block 2
 			else:
-				print(' ham')
+				print(' ham')		# block 3
 			print(' spam')
 		print(' spam')
 
 
-		
-		
 Q: 9. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
 # see spamCheck.py
 
@@ -81,7 +80,7 @@ Q: 11. What is the difference between break and continue?
 # continue ignores everything after it and returns to the beginning of the loop
 
 
-Q: 12. What is the difference between range( 10), range( 0, 10), and range( 0, 10, 1) in a for loop?
+Q: 12. What is the difference between range(10), range(0, 10), and range(0, 10, 1) in a for loop?
 
 
 
