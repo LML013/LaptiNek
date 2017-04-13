@@ -81,19 +81,40 @@ Q: 11. What is the difference between break and continue?
 
 
 Q: 12. What is the difference between range(10), range(0, 10), and range(0, 10, 1) in a for loop?
-
+# The range(10) call ranges up to but not including 10
+# The range(0) call ranges from 0 to but not including 10
+# The range(0,10,1) call ranges from 0 up to but not including 10 in increments of 1
 
 
 Q: 13. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
-
+# for i in range(1,11,1):
+#	print(i)
+# 
+# i = 1
+# while i < 11:
+# 	print(i)
+# 	i = i + 1
 
 
 Q: 14. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
-
+# spam.bacon()
 
 
 Extra credit: Look up the round() and abs() functions on the Internet, and find out what they do. Experiment with them in the interactive shell.
-
+# https://docs.python.org/2/library/functions.html
+# 
+# abs(number) returns the absolute value of a number. If it is a complex number, the mangitude is returned.
+# 
+# >>> abs(1)
+# 1
+# >>> abs(-1)
+# 1
+# >>> abs(-10)
+# 10
+# >>> abs(-3)
+# 3
+# 
+# round(number,[, ndigits]) returns the floating point value number rounded to ndigits digits after the decimal point. if ndigits is omitted, it defaults to zero. the result is a floating point number.
 
 
 Sweigart, Al. Automate the Boring Stuff with Python: Practical Programming for Total Beginners (p. 60). No Starch Press. Kindle Edition. 
