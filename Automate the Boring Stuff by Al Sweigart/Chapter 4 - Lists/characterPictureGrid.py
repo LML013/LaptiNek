@@ -52,9 +52,3 @@ for y in range(rowLength):
 #Not super happy with my result but it works.
 #The tricky part is finding a way to measure the length of the row one is currently on.
 #This program won't work if any of the rows are different length
-
-
-
-
-
-
