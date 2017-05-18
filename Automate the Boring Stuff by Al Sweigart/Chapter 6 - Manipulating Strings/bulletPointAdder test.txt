@@ -1,0 +1,66 @@
+bulletPointAdder.py test
+
+Lists of actors
+Lists of actors by television series
+Lists of pornographic actors
+Lists of albums
+Lists of UK Compilation Chart number-one albums
+Lists of anime
+Lists of Canadian game shows
+Lists of characters in a fictional work
+Lists of advertising characters
+Lists of characters from The Office
+Lists of Coronation Street characters
+Lists of CSI characters
+Lists of Emmerdale characters
+Lists of fictional Presidents of the United States
+Lists of Hollyoaks characters
+Lists of Stargate characters
+Lists of The Walking Dead characters
+Lists of Transformers characters
+Lists of UK number one singles
+Lists of composers
+Chronological lists of classical composers
+Chronological lists of classical composers by nationality
+Lists of films
+Lists of book-based war films
+Lists of box office number-one films
+List of Desert Island Discs episodes
+Lists of fiction works made into feature films
+Lists of film remakes
+Lists of film series
+Lists of film spin-offs
+Lists of films by country
+
+
+* Lists of actors
+* Lists of actors by television series
+* Lists of pornographic actors
+* Lists of albums
+* Lists of UK Compilation Chart number-one albums
+* Lists of anime
+* Lists of Canadian game shows
+* Lists of characters in a fictional work
+* Lists of advertising characters
+* Lists of characters from The Office
+* Lists of Coronation Street characters
+* Lists of CSI characters
+* Lists of Emmerdale characters
+* Lists of fictional Presidents of the United States
+* Lists of Hollyoaks characters
+* Lists of Stargate characters
+* Lists of The Walking Dead characters
+* Lists of Transformers characters
+* Lists of UK number one singles
+* Lists of composers
+* Chronological lists of classical composers
+* Chronological lists of classical composers by nationality
+* Lists of films
+* Lists of book-based war films
+* Lists of box office number-one films
+* List of Desert Island Discs episodes
+* Lists of fiction works made into feature films
+* Lists of film remakes
+* Lists of film series
+* Lists of film spin-offs
+* Lists of films by country
