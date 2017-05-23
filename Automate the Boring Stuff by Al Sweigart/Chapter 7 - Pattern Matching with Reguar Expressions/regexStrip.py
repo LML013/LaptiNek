@@ -12,12 +12,11 @@ def regexStrip(string, remove = None):
 	if remove == None:
 		whiteSpaceRegex = re.compile(r'^\s*|\s*$')
 		result = whiteSpaceRegex.sub('', string)
-		print(result)
 	else:
 		removeRegex = re.compile(" " + remove, re.I | re.DOTALL)
 		result = removeRegex.sub("", string)
-		print(result)
-		
+	print(result)
+
 # Setting test string variables as teStr
 teStr1 = "Testing 1 2 3."
 teStr2 = "Testing 1 2 3. Red Leather, Yellow Leather."
@@ -32,3 +31,6 @@ regexStrip(teStr1)
 regexStrip(teStr2, "Leather")
 regexStrip(teStr3)
 regexStrip(teStr4, "2")
+
+
+# Admittedly I looked up some solutions to this one and found a few things that I could use to make it as short as I could.
