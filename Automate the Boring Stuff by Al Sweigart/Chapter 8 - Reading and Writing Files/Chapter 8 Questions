@@ -1,5 +1,5 @@
 Q: 1. What is a relative path relative to?
-# The base name.
+# The current working directory
 
 Q: 2. What does an absolute path start with?
 # The root folder. Usually C:\\ or /.
@@ -17,7 +17,9 @@ Q: 5. In C:\bacon\eggs\spam.txt, which part is the dir name, and which part is t
 # The base name is spam.txt
 
 Q: 6. What are the three “mode” arguments that can be passed to the open() function?
-# r, w, a
+# r for read mode
+# w for write mode
+# a for append mode
 
 Q: 7. What happens if an existing file is opened in write mode?
 # The existing file will be overwritten and started from scratch.
