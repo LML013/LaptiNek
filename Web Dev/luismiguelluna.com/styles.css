@@ -14,3 +14,7 @@ body {
 .location, .date, .GPA {
 	text-align: right;
 }
+
+.email, .phoneNum {
+	text-align: center;
+}
