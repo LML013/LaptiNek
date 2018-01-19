@@ -10,3 +10,7 @@
 body {
 	padding-bottom: 70px;
 }
+
+.location, .date, .GPA {
+	text-align: right;
+}

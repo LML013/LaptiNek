@@ -5,8 +5,9 @@
 	<title>Luis Miguel Luna</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script>
+<!-- 	<script>
 		$(document).ready(function() {
 			$(".container").load("home.html");
 		});
@@ -15,12 +16,36 @@
 				$(".container").load(($this).attr("data-page")+".html");
 			});
 		});
-	</script>
+	</script> -->
 </head>
 <body>
 	
 	<div class="container">
-		<div id="nav-placeholder"></div>
+		<!-- <div id="nav-placeholder"></div> -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Luis Miguel Luna</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="resume.html">Resume</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="https://lunadesignlabs.com"><i class="fa fa-desktop" aria-hidden="true"></i> Luna Design Labs - <em>Web Design and Marketing Company</em></a>
+							<a class="dropdown-item" href="https://greensabergames.com"><i class="fa fa-gamepad" aria-hidden="true"></i> Greensaber Games - <em>Tabletop Gaming Blog and Videos</em></a>							
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
 	</div>
 
 
