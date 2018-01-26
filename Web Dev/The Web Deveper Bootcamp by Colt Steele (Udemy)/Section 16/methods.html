@@ -4,12 +4,33 @@
 	<meta charset="UTF-8">
 	<title>jQuery Methods</title>
 	<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous">	</script>
+
+	<style type="text/css">
+		.correct {
+			color: green;
+		}
+
+		.wrong {
+			color: red;
+			background: pink;
+		}
+
+		.done {
+			color: gray;
+			text-decoration: line-through;
+		}
+	</style>
 </head>
 <body>
 	<h1>jQuery Methods Demo Page</h1>
 
 	<input type="text" placeholder="your name" name="name">
 
+	<select name="" id="">
+		<option>Ostrich</option>
+		<option>Turtle</option>
+		<option>Toad</option>
+	</select>
 
 	<ul>
 		<li>Skittles</li>
@@ -17,8 +38,33 @@
 		<li>Twix</li>
 	</ul>
 
+	<img src="http://i.imgur.com/zvANQeG.jpg">
+	<img src="http://i.imgur.com/zvANQeG.jpg">
+	<img src="http://i.imgur.com/zvANQeG.jpg">
+
 	<script type="text/javascript">
-		
+		// First Exercise
+		$("img").css("width", "200px");
+		// $("img").attr("src", "https://c3.staticflickr.com/3/2418/2243463214_f32ab004af_b.jpg");
+		// $("img:first-of-type").attr("src", "https://c3.staticflickr.com/3/2418/2243463214_f32ab004af_b.jpg");
+		// $("img").last().attr("src", "https://c3.staticflickr.com/3/2418/2243463214_f32ab004af_b.jpg");
+		// $("img").attr("src", "https://upload.wikimedia.org/wikipedia/commons/8/8e/Newfoundland_Pine_Marten.jpg");
+		// $("input").val("Rusty Steele");
+		// $("select").val("Toad");
+
+		// Second Exercise
+		$("h1").addClass("correct");
+		$("h1").removeClass("correct");
+		$("li").addClass("wrong");
+		$("li").removeClass("wrong");
+		$("li").addClass("correct");
+		$("li").first().toggleClass("done");
+		$("li").toggleClass("done");
+		$("li").first().removeClass("correct");
+
+		// Third Exercise
+
+
 	</script>
 
 </body>
