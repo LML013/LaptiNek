@@ -1,0 +1,31 @@
+<DOCTYPE! html>
+
+<head>
+	<title>Han Solo</title>
+</head>
+<body>
+	<div class="container container-fluid" id="main">
+		<h1 class="text-primary text-center" id="title">Han Solo</h1>
+		<h2 class="text-center">Scoundrel, Smuggler, General, Hero</h2>
+		<div class="card" id="image">
+			<img src="https://vignette3.wikia.nocookie.net/starwars/images/0/01/Hansoloprofile.jpg/revision/latest/scale-to-width-down/499?cb=20100129155042" class="card-img-top img-fluid rounded" alt="Han Solo"></img>
+			<div class="card-body text-center">Han Solo with his signature DL-44 Blaster Pistol</figcaption>
+	</div>
+	<div class="text-center" id="tribute-info">	
+	<ul>
+			<li><span>30 BBY</span> - Born on <a href="http://starwars.wikia.com/wiki/Corellia">Corellia</a> and orphaned at a young age.</li>
+			<li><span>29-0 BBY</span>
+				<ul>
+					<li>Saved Chewbacca from imprisonment</li>
+					<li>Won the YT-1300 light freighter, Millennium Falcon, from Lando Calrissian in a game of "Corellian Spike" Sabacc using a pair of gold dice.</li>
+				</ul>	
+			</li>
+		<li><span>34 ABY</span> - Killed by Kylo Ren during the Assault on Starkiller Base</li>
+		</ul>
+	</div>
+	<div class="well text-center">
+	<h3>You can find more about Han Solo on his <a href="http://starwars.wikia.com/wiki/Han_Solo" id="tribute-link" target="_blank">Holonet page</a>.</h3>
+	</div>
+	<footer>Page built by <a href="http://lunadesignlabs.com">Luna Design Labs</a> as a <a href="http://freecodecamp.com">freeCodeCamp</a> project.</footer>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
